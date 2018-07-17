@@ -1,0 +1,239 @@
+{
+  "_organizations": [
+    {
+      "DiscoveryURL": "https://disco.crm9.dynamics.com/xrmservices/2011/discovery.svc",
+      "OrganizationURL": "https://cerrsdev.api.crm9.dynamics.com",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "8.2.2.1310",
+      "_projects": [
+        {
+          "Name": "CERRS.Plugins.MCRJournalOnPhCallCreate.csproj",
+          "NameWithoutExtension": "CERRS.Plugins.MCRJournalOnPhCallCreate",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": true,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": false,
+            "CrmReferenceDirectory": "C:\\ProgramData\\Simpler Software\\XrmToolkit\\CRM References\\7.0\\",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "ILMergeOutputAssemblyName": "CERRS.Plugins.MCRJournalOnPhCallCreate.dll",
+            "OverrideTargetFrameworkLocation": false,
+            "TargetFrameworkLocation": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.5",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\CERRS.Plugins.MCRJournalOnPhCallCreate.dll",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [
+              {
+                "Name": "CERRS.MCR.JournalInterface",
+                "IncludeInILMerge": true
+              }
+            ],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [
+                {
+                  "_steps": [
+                    {
+                      "_images": [],
+                      "LogicalName": "sdkmessageprocessingstep",
+                      "SdkMessageFilterPrimaryObjectTypeCode": "phonecall",
+                      "SdkMessageFilterSecondaryObjectTypeCode": "none",
+                      "Id": "00000000-0000-0000-0000-000000000000",
+                      "Attributes": [
+                        {
+                          "Key": "plugintypeid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"00000000-0000-0000-0000-000000000000"},"LogicalName":"plugintype","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "stage",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":40}}
+                        },
+                        {
+                          "Key": "rank",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "supporteddeployment",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "asyncautodelete",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        },
+                        {
+                          "Key": "mode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "name",
+                          "Value": "Create - Phone Call - Post-operation"
+                        },
+                        {
+                          "Key": "sdkmessageid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9ebdbb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessage","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "sdkmessagefilterid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"ffc5bb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "statuscode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "customizationlevel",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        }
+                      ],
+                      "FormattedValues": [],
+                      "RelatedEntities": [],
+                      "KeyAttributes": []
+                    }
+                  ],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 1,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "00000000-0000-0000-0000-000000000000",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "CERRS.Plugins.MCRJournalOnPhCallCreate.MCRJournalOnPhCallCreate"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "CERRS.Plugins.MCRJournalOnPhCallCreate.MCRJournalOnPhCallCreate"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "CERRS.Plugins.MCRJournalOnPhCallCreate.MCRJournalOnPhCallCreate"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"1948a220-ea89-e811-810d-1458d04e2c70"},"LogicalName":"pluginassembly","KeyAttributes":[]}
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                }
+              ],
+              "LogicalName": "pluginassembly",
+              "Id": "1948a220-ea89-e811-810d-1458d04e2c70",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                },
+                {
+                  "Key": "name",
+                  "Value": "CERRS.Plugins.MCRJournalOnPhCallCreate"
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "org9660bcb0",
+      "OrganizationDisplayName": "CERRS DEV",
+      "UserFriendlyName": "CERRS DEV",
+      "SelectedSolution": {
+        "UniqueName": "PluginProfiler",
+        "Id": "2e9053f5-b886-4335-bc45-7fe9c524fc31",
+        "LogicalName": "solution",
+        "Name": "Plug-in Profiler"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    }
+  ]
+}
